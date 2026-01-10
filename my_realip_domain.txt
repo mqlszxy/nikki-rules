@@ -2,7 +2,7 @@
 ctldl.windowsupdate.com
 core.api.mijia.tech
 mmgame.qpic.cn
-git@github.com
++.github.com
 
 
 
