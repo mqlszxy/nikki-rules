@@ -17,3 +17,4 @@ www.msn.com
 ocsp.digicert.com
 update.iobit.com
 api-js.mixpanel.com
+m2.dreport.meituan.net
