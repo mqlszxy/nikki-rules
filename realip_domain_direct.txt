@@ -1,4 +1,4 @@
-# fakeip过滤，使用直连DNS：以下域名不使用fakeip代理，使用国内DNS服务器直接获取真实IP
+# fakeip过滤，使用直连DNS：以下域名不使用fakeip代理，使用国内DNS服务器直接获取真实IP，当域名不能准确DNS解析或网站不能使用fakeip时将域名写到下面
 ctldl.windowsupdate.com
 core.api.mijia.tech
 mmgame.qpic.cn
