@@ -9,7 +9,7 @@ Fallback: &Fallback {type: select, proxies: [🔁 狮城故转, 🔁 台湾故�
 
 proxy-providers:
   WD:
-    url: "https://api.wd-purple.com/sub?target=clash&emoji=true&udp=true&scv=true&new_name=true&filename=WestData&url=https%3A%2F%2Fwd-purple.com%2Fsubscribe%2Fnjgvna-2hrqipxx-ypiFoA7G"
+    url: "机场订阅"
     type: http
     interval: 86400
     health-check:
