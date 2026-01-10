@@ -1,12 +1,6 @@
-# 来自NIKKI日志报错
 ctldl.windowsupdate.com
 core.api.mijia.tech
 mmgame.qpic.cn
-+.github.com
-
-
-
-# 来自外网兜底域名
 x1.c.lencr.org
 www.bing.com
 edge.microsoft.com
@@ -20,11 +14,6 @@ srtb.msn.com
 global.bing.com
 v10.events.data.microsoft.com
 www.msn.com
-
-
-
-
-# 来自全网兜底域名
 ocsp.digicert.com
 update.iobit.com
 api-js.mixpanel.com
