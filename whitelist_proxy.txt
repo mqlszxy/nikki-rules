@@ -1,1 +1,2 @@
+# 以下域名加入白名单，规则匹配优先级最高，使用代理策略
 collector.github.com # github同步

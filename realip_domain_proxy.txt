@@ -1,1 +1,2 @@
+# fakeip过滤，使用代理DNS：以下域名不使用fakeip代理，使用境外DNS服务器直接获取真实IP
 +.github.com
