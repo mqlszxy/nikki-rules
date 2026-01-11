@@ -9,7 +9,7 @@ Fallback: &Fallback {type: select, proxies: [🔁 狮城故转, 🔁 台湾故�
 
 proxy-providers:
   WD:
-    url: "机场订阅"
+    url: "https://api.wd-purple.com/sub?target=clash&emoji=true&udp=true&scv=true&new_name=true&filename=WestData&url=https%3A%2F%2Fwd-purple.com%2Fsubscribe%2Fnjgvna-k9piao6m-joio45tb"
     type: http
     interval: 86400
     health-check:
@@ -100,7 +100,7 @@ dns:
     - 'rule-set:realip_domain_direct'                           # 自建不使用fakeip的代理的规则集
     - 'rule-set:realip_domain_proxy'                            # 自建不使用fakeip的直连的规则集
   nameserver-policy:
-    'rule-set:blacklist_domain':                                # 自建域名黑名单规则集
+    'rule-set:blacklist_domain':                                # 自建域名黑名单规则集,DNS不解析
       - 0.0.0.0
     'rule-set:realip_domain_direct':
       - https://dns.alidns.com/dns-query

@@ -1,2 +1,5 @@
 # 以下域名加入白名单，规则匹配优先级最高，使用直连策略：当特定域名被分流错误或者被拦截时使用
 +.drivers.amd.com
++.xiaomi.com
++.miui.com
+dig.bdurl.net
