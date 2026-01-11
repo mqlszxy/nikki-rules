@@ -18,3 +18,7 @@
 +.dnschecker.org
 +.config.office.com
 +.lencr.org
++.windows.com
++.msedge.net
++.licdn.com
++.nel.cloudflare.com
