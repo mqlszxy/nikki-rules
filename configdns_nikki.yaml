@@ -95,14 +95,17 @@ dns:
   nameserver:
     - https://8.8.8.8/dns-query
   fake-ip-filter:
-    - "rule-set:fakeipfilter_domain"                            # 引用的不使用fakeip的规则集
-    - "rule-set:realip_domain_direct"                           # 自建不使用fakeip的代理的规则集
-    - "rule-set:realip_domain_proxy"                            # 自建不使用fakeip的直连的规则集
+    - 'rule-set:blacklist_domain'                               # 自建域名黑名单规则集
+    - 'rule-set:fakeipfilter_domain'                            # 引用的不使用fakeip的规则集
+    - 'rule-set:realip_domain_direct'                           # 自建不使用fakeip的代理的规则集
+    - 'rule-set:realip_domain_proxy'                            # 自建不使用fakeip的直连的规则集
   nameserver-policy:
-    "rule-set:realip_domain_direct":
+    'rule-set:blacklist_domain':                                # 自建域名黑名单规则集
+      - 0.0.0.0
+    'rule-set:realip_domain_direct':
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
-    "rule-set:realip_domain_proxy":
+    'rule-set:realip_domain_proxy':
       - https://8.8.8.8/dns-query
       - tls://1.1.1.1:853
       - https://1.0.0.1/dns-query
@@ -147,7 +150,8 @@ proxy-groups:
 
 # 规则匹配
 rules:
-  # 自建规则集
+  # 自建规则集（流量处理方式借用已配置策略组）
+  - RULE-SET,blacklist_domain,🛡️ 流量净化           # 自建域名黑名单规则集
   - RULE-SET,whitelist_proxy,🚀 外网兜底            # 自建代理域名白名单规则集
   - RULE-SET,whitelist_direct,🔗 直连服务           # 自建直连域名白名单规则集
   # 🛡️ 流量净化 (按危险优先级排序)
@@ -231,6 +235,7 @@ rule-providers:
   realip_domain_proxy: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/nikki-rules/refs/heads/main/realip_domain_proxy.txt" }      # 自定义fakeipfilter域名规则集
   whitelist_direct: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/nikki-rules/refs/heads/main/whitelist_direct.txt" }            # 自定义走代理的域名白名单
   whitelist_proxy: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/nikki-rules/refs/heads/main/whitelist_proxy.txt" }              # 自定义走代理的域名白名单
+  blacklist_domain: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/nikki-rules/refs/heads/main/blacklist_domain.txt" }            # 自定义黑名单域名
   # 🛡️ 流量净化
   ad_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.mrs" }                  # MetaCubeX官方广告规则
   # 🔗 直连服务
