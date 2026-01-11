@@ -2,3 +2,4 @@
 +.xiaomi.com
 +.miui.com
 dig.bdurl.net
+settings-win.data.microsoft.com
