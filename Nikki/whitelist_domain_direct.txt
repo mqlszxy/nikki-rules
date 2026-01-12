@@ -1,6 +1,8 @@
 +.drivers.amd.com
 +.dig.bdurl.net
 +.data.microsoft.com
++.smartscreen.microsoft.com
++.api.iris.microsoft.com
 +.www.bing.com
 +.activity.windows.com
 +.datadog.pool.ntp.org
@@ -18,5 +20,17 @@
 +.windows.com
 +.msedge.net
 +.alicdn.com
-+.a.nel.cloudflare.com
 +.wa.qq.com
++.pub.network
++.nel.cloudflare.com
++.r2.cloudflarestorage.com
+tracker.xiaomixiaoai.com
+tracking.miui.com
+www.msftconnecttest.com
+checkip.dyndns.com
+api.floors.dev
+cfwho.com
+api-js.mixpanel.com
+stats.reportcpanel.com
+ied-api.reportcpanel.com
+config.edge.skype.com

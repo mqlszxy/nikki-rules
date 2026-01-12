@@ -4,3 +4,5 @@ pre-api.miui.security.xiaomi.com
 +.status-ipv6.jpush.cn
 +.speedv6.m.jd.com
 kainosiuorod3ml7kujdq1peguarr8nb7rh5fji0asics86arqa488e.siomxity.net
+ipv6.msftconnecttest.com:80
+wallpaper.itopvpn.com
