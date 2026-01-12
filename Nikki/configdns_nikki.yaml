@@ -9,7 +9,7 @@ Fallback: &Fallback {type: select, proxies: [🔁 狮城故转, 🔁 台湾故�
 
 proxy-providers:
   WD:
-    url: "https://api.wd-purple.com/sub?target=clash&emoji=true&udp=true&scv=true&new_name=true&filename=WestData&url=https%3A%2F%2Fwd-purple.com%2Fsubscribe%2Fnjgvna-k9piao6m-joio45tb"
+    url: "机场订阅URL"
     type: http
     interval: 86400
     health-check:
@@ -230,11 +230,11 @@ rule-anchor:
   domain_text: &domain_text {type: http, interval: 86400, behavior: domain, format: text}
 rule-providers: 
   # 自建规则集
-  realip_domain_direct: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/nikki-rules/refs/heads/main/realip_domain_direct.txt" }    # 自定义fakeip过滤域名规则集,直连DNS
-  realip_domain_proxy: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/nikki-rules/refs/heads/main/realip_domain_proxy.txt" }      # 自定义fakeip过滤域名规则集,代理DNS
-  whitelist_direct: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/nikki-rules/refs/heads/main/whitelist_direct.txt" }            # 自定义域名白名单,直连
-  whitelist_proxy: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/nikki-rules/refs/heads/main/whitelist_proxy.txt" }              # 自定义域名白名单,代理
-  blacklist_domain: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/nikki-rules/refs/heads/main/blacklist_domain.txt" }            # 自定义黑名单域名,不解析DNS,不访问
+  realip_domain_direct: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/realip_domain_direct.txt" }    # 自定义fakeip过滤域名规则集,直连DNS
+  realip_domain_proxy: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/realip_domain_proxy.txt" }      # 自定义fakeip过滤域名规则集,代理DNS
+  whitelist_direct: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/whitelist_direct.txt" }            # 自定义域名白名单,直连
+  whitelist_proxy: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/whitelist_proxy.txt" }              # 自定义域名白名单,代理
+  blacklist_domain: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/blacklist_domain.txt" }            # 自定义黑名单域名,不解析DNS,不访问
   # 🛡️ 流量净化
   ad_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.mrs" }                  # MetaCubeX官方广告规则
   # 🔗 直连服务
