@@ -1,4 +1,4 @@
-+.api.xsj.wasu.tv
-+.storage.xiaomixiaoai.com
 +.status-ipv6.jpush.cn
-+.inputsuggestions.msdxcdn.microsoft.com
++.speedv6.m.jd.com
+risk.dun.mi.com
+core.api.mijia.tech:80
