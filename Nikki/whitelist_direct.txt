@@ -1,6 +1,3 @@
-+.xiaomi.com
-+.miui.com
-+.mi.com
 +.drivers.amd.com
 +.dig.bdurl.net
 +.data.microsoft.com

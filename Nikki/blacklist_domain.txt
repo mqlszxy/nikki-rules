@@ -1,4 +1,6 @@
-+.status-ipv6.jpush.cn
-+.speedv6.m.jd.com
 risk.dun.mi.com
 core.api.mijia.tech:80
+pre-api.miui.security.xiaomi.com
++.status-ipv6.jpush.cn
++.speedv6.m.jd.com
+kainosiuorod3ml7kujdq1peguarr8nb7rh5fji0asics86arqa488e.siomxity.net
