@@ -47,3 +47,6 @@ www.asus.com
 +.tracker.xiaomixiaoai.com
 +.tracking.miui.com
 +.ad.xiaomi.com
+adsmind.gdtimg.com
++.comfylink.com
+in.appcenter.ms

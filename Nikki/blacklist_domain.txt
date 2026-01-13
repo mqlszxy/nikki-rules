@@ -1,9 +1,12 @@
 risk.dun.mi.com
-core.api.mijia.tech:80
 pre-api.miui.security.xiaomi.com
 +.status-ipv6.jpush.cn
 +.speedv6.m.jd.com
 kainosiuorod3ml7kujdq1peguarr8nb7rh5fji0asics86arqa488e.siomxity.net
 ipv6.msftconnecttest.com
+ipv6.msftncsi.com
 wallpaper.itopvpn.com
 tosv.byted.org
+idx.v6.shub.sandai.net
+hub5pr.v6.phub.sandai.net
+3132372e302e302e31
