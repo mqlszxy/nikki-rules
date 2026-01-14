@@ -10,3 +10,4 @@ tosv.byted.org
 idx.v6.shub.sandai.net
 hub5pr.v6.phub.sandai.net
 stun.services.mozilla.com
++.optimise.net

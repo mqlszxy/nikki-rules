@@ -1,3 +1,2 @@
 +.github.com
-+.optimise.net
 +.wd-gold.com
