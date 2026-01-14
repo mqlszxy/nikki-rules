@@ -1,3 +1,5 @@
+# 直连域名白名单
+
 # 微软
 +.office.com
 +.microsoft.com
