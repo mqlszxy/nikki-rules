@@ -45,3 +45,7 @@
 +.itopupdate.com
 +.iobit.com
 +.digicert.com
++.skk.moe
++.wd-purple.com
++.ip.sb
++.jsdelivr.net
