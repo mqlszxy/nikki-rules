@@ -65,3 +65,4 @@
 +.cloudflareinsights.com
 +.bdstatic.com
 +.licdn.com
+ssh.github.com
