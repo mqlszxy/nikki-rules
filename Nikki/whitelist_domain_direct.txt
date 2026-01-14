@@ -122,3 +122,4 @@
 +.brave.com
 +.bdstatic.com
 +.ip-api.com
++.vsassets.io
