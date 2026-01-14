@@ -2,6 +2,9 @@
 
 # 小米
 
+# 微软
++.inputsuggestions.msdxcdn.microsoft.com
+
 # IPV6
 +.status-ipv6.jpush.cn
 +.speedv6.m.jd.com
