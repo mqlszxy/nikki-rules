@@ -71,6 +71,16 @@
 +.wiki.metacubex.one
 +.wikimedia.org
 
+# 可可影视
++.cdn.wlcdn88.com
++.v8.qewbn.com
++.snv13.tscjzy.com
++.v.lzcdn31.com
++.cdn.yzzy32-play.com
++.vip.dytt-cine.com
++.s1.fengbao9.com
++.vip.ffzy-online.com
+
 # 杂项
 +.bdurl.net
 +.unpkg.com
