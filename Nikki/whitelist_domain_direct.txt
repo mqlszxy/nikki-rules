@@ -1,7 +1,7 @@
 # 微软
-+.office.com
-+.office.com
-+.office.com
+office2.com1
+office.com2
+office.com3
 +.office.com
 +.microsoft.com
 +.bing.com

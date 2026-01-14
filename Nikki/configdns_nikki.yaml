@@ -152,9 +152,9 @@ rules:
   # 自建规则集（流量处理方式借用已配置策略组）
   - RULE-SET,blacklist_domain,🛡️ 流量净化                  # 自建域名黑名单规则集
   - RULE-SET,blacklist_ip,🛡️ 流量净化                      # 自建ip黑名单规则集
-  - RULE-SET,whitelist_domain_proxy,🚀 外网兜底            # 自建代理域名白名单规则集
   - RULE-SET,whitelist_domain_direct,🔗 直连服务           # 自建直连域名白名单规则集
   - RULE-SET,whitelist_ip_direct,🔗 直连服务               # 自建直连ip白名单规则集
+  - RULE-SET,whitelist_domain_proxy,🚀 外网兜底            # 自建代理域名白名单规则集
   - RULE-SET,whitelist_ip_proxy,🚀 外网兜底                # 自建代理ip白名单规则集
   # 🛡️ 流量净化 (按危险优先级排序)
   - RULE-SET,google_ads_domain,🛡️ 流量净化          # 谷歌广告
