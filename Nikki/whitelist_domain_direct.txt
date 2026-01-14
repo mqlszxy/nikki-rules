@@ -36,7 +36,7 @@
 
 # 硬件
 +.asus.com
-+.drivers.amd.com
++.amd.com
 
 # 京东
 +.360buyimg.com
@@ -132,3 +132,9 @@
 +.ip-api.com
 +.vsassets.io
 +.vzuu.com
++.kuaishouzt.com
++.restream.io
++.xilinx.com
++.coveo.com
++.go-mpulse.net
++.amazonaws.com
