@@ -2,6 +2,7 @@
 +.microsoft.com
 +.bing.com
 +.bing.net
++.linkedin.com
 +.visualstudio.com
 +.login.live.com
 +.cloudflare.com
