@@ -22,6 +22,9 @@
 +.cloudflarestorage.com
 +.cloudflareinsights.com
 
+# 苹果
++.apple.com
+
 # 腾讯
 +.qq.com
 
@@ -44,6 +47,9 @@
 
 # 字节跳动
 +.byted.org
+
+# 知乎
++.zhimg.com
 
 # Github
 +.ssh.github.com
@@ -89,6 +95,8 @@
 +.fengbao8.com
 +.ffzy-video.com
 
+# 索尼
++.sony.tv
 
 # 杂项
 +.bdurl.net
@@ -123,3 +131,4 @@
 +.bdstatic.com
 +.ip-api.com
 +.vsassets.io
++.vzuu.com
