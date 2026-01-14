@@ -64,3 +64,4 @@
 +.brave.com
 +.cloudflareinsights.com
 +.bdstatic.com
++.licdn.com
