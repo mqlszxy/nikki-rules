@@ -152,19 +152,21 @@ proxy-groups:
 
 # 规则匹配
 rules:
-  # 自建规则集（流量处理方式借用已配置策略组）
-  - RULE-SET,blacklist_domain,🛡️ 流量净化                  # 自建域名黑名单规则集
-  - RULE-SET,blacklist_classical,🛡️ 流量净化               # 自建域名黑名单规则集
-  - RULE-SET,blacklist_ip,🛡️ 流量净化                      # 自建ip黑名单规则集
-  - RULE-SET,whitelist_domain_direct,🔗 直连服务           # 自建直连域名白名单规则集
-  - RULE-SET,whitelist_ip_direct,🔗 直连服务               # 自建直连ip白名单规则集
-  - RULE-SET,whitelist_domain_proxy,🚀 外网兜底            # 自建代理域名白名单规则集
-  - RULE-SET,whitelist_ip_proxy,🚀 外网兜底                # 自建代理ip白名单规则集
   # 🛡️ 流量净化 (按危险优先级排序)
   - RULE-SET,google_ads_domain,🛡️ 流量净化          # 谷歌广告
   - RULE-SET,disney_ads_domain,🛡️ 流量净化          # disney广告
   - RULE-SET,apple_ads_domain,🛡️ 流量净化           # apple广告
   - RULE-SET,ad_domain,🛡️ 流量净化                  # 广告
+  # 自建规则集（流量处理方式借用已配置策略组）
+    # 黑名单
+  - RULE-SET,blacklist_domain,🛡️ 流量净化                  # 自建域名黑名单规则集
+  - RULE-SET,blacklist_classical,🛡️ 流量净化               # 自建域名黑名单规则集
+  - RULE-SET,blacklist_ip,🛡️ 流量净化,no-resolve           # 自建ip黑名单规则集
+    # 白名单
+  - RULE-SET,whitelist_domain_direct,🔗 直连服务           # 自建直连域名白名单规则集
+  - RULE-SET,whitelist_ip_direct,🔗 直连服务,no-resolve    # 自建直连ip白名单规则集
+  - RULE-SET,whitelist_domain_proxy,🚀 外网兜底            # 自建代理域名白名单规则集
+  - RULE-SET,whitelist_ip_proxy,🚀 外网兜底,no-resolve     # 自建代理ip白名单规则集
   # 📡 消息推送
   - RULE-SET,google_fcm_domain,📡 消息推送          # GoogleFCM
   # 内网直连
@@ -223,8 +225,8 @@ rules:
   # 🚀 外网兜底
   - RULE-SET,geolocation-!cn,🚀 外网兜底
     # 国内直连
-  - RULE-SET,cn_ip,🔗 直连服务
   - RULE-SET,cn_domain,🔗 直连服务
+  - RULE-SET,cn_ip,🔗 直连服务
   # 🧯 全局兜底
   - MATCH,🧯 全局兜底
 
