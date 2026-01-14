@@ -1,73 +1,102 @@
 # 微软
-office2.com1
-office.com2
-office.com3
 +.office.com
 +.microsoft.com
 +.bing.com
 +.bing.net
++.bingapis.com
 +.linkedin.com
 +.visualstudio.com
 +.live.com
-+.cloudflare.com
-+.bdurl.net
-+.unpkg.com
-+.revenuecat.com
-+.snssdk.com
-+.dnschecker.org
-+.lencr.org
 +.windows.com
-+.msedge.net
-+.alicdn.com
-+.qq.com
-+.pub.network
-+.cloudflarestorage.com
-+.msftconnecttest.com
-+.dyndns.com
-+.floors.dev
-+.cfwho.com
-+.mixpanel.com
-+.reportcpanel.com
 +.skype.com
-+.360buyimg.com
-+.jd.com
-+.obsidian.md
-+.asus.com
-+.drivers.amd.com
++.msedge.net
++.vscode-cdn.net
++.msn.com
++.msftconnecttest.com
++.msftncsi.com
+
+
+# Cloudflare
++.cloudflare.com
++.cloudflarestorage.com
++.cloudflareinsights.com
+
+# 腾讯
++.qq.com
+
+#小米
 +.xiaomixiaoai.com
 +.miui.com
 +.xiaomi.com
 +.xiaomi.net
+
+# 硬件
++.asus.com
++.drivers.amd.com
+
+# 京东
++.360buyimg.com
++.jd.com
+
+# 阿里
++.alicdn.com
+
+# 字节跳动
++.byted.org
+
+# Github
++.ssh.github.com
+
+# Mozilla
++.stun.services.mozilla.com
+
+# Obsidian
++.obsidian.md
+
+# Karing
++.karing.app
+
+# CDN
++.akamaized.net
++.dyndns.com
++.dnschecker.org
++.licdn.com
+
+# NTP
++.ntp.org
+
+#Update
++.itopupdate.com
+
+# 杂项
++.bdurl.net
++.unpkg.com
++.revenuecat.com
++.snssdk.com
++.lencr.org
++.pub.network
++.floors.dev
++.cfwho.com
++.mixpanel.com
++.reportcpanel.com
 +.gdtimg.com
 +.comfylink.com
 +.appcenter.ms
 +.fmhy.net
-+.msftncsi.com
-+.vscode-cdn.net
-+.ntp.org
 +.exp-tas.com
 +.auth0.com
-+.itopupdate.com
 +.iobit.com
 +.digicert.com
 +.skk.moe
-+.wd-purple.com
 +.ip.sb
 +.jsdelivr.net
 +.ipify.org
 +.tampermonkey.net
-+.karing.app
 +.scorecardresearch.com
 +.vigem.org
 +.azureedge.net
-+.msn.com
 +.ctfassets.net
-+.bingapis.com
-+.akamaized.net
 +.solidigm-nvme.com
 +.brave.com
-+.cloudflareinsights.com
 +.bdstatic.com
-+.licdn.com
-+.ssh.github.com
 +.ip-api.com

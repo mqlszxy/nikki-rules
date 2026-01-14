@@ -96,10 +96,13 @@ dns:
     - https://8.8.8.8/dns-query
   fake-ip-filter:
     - 'rule-set:blacklist_domain'                               # 自建域名黑名单规则集
+    - 'rule-set:blacklist_classical'                            # 自建域名黑名单规则集    
     - 'rule-set:realip_domain_direct'                           # 自建不使用fakeip的代理的规则集
     - 'rule-set:realip_domain_proxy'                            # 自建不使用fakeip的直连的规则集
   nameserver-policy:
     'rule-set:blacklist_domain':                                # 自建域名黑名单规则集,DNS不解析
+      - 0.0.0.0
+    'rule-set:blacklist_classical':                             # 自建域名黑名单规则集,DNS不解析
       - 0.0.0.0
     'rule-set:realip_domain_direct':
       - https://dns.alidns.com/dns-query
@@ -151,6 +154,7 @@ proxy-groups:
 rules:
   # 自建规则集（流量处理方式借用已配置策略组）
   - RULE-SET,blacklist_domain,🛡️ 流量净化                  # 自建域名黑名单规则集
+  - RULE-SET,blacklist_classical,🛡️ 流量净化               # 自建域名黑名单规则集
   - RULE-SET,blacklist_ip,🛡️ 流量净化                      # 自建ip黑名单规则集
   - RULE-SET,whitelist_domain_direct,🔗 直连服务           # 自建直连域名白名单规则集
   - RULE-SET,whitelist_ip_direct,🔗 直连服务               # 自建直连ip白名单规则集
@@ -232,6 +236,7 @@ rule-anchor:
   domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
   domain_text: &domain_text {type: http, interval: 86400, behavior: domain, format: text}
   ip_text: &ip_text {type: http, interval: 86400, behavior: ipcidr, format: text}
+  classical_text: &classical_text {type: http, interval: 86400, behavior: classical, format: text}
 rule-providers: 
   # 自建规则集
   realip_domain_direct: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/realip_domain_direct.txt" }           # 自定义fakeip过滤域名规则集,直连DNS
@@ -240,8 +245,9 @@ rule-providers:
   whitelist_domain_proxy: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/whitelist_domain_proxy.txt" }       # 自定义域名白名单,代理
   whitelist_ip_direct: { <<: *ip_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/whitelist_ip_direct.txt" }                 # 自定义ip白名单,直连
   whitelist_ip_proxy: { <<: *ip_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/whitelist_ip_proxy.txt" }                   # 自定义ip白名单,代理
-  blacklist_domain: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/blacklist_domain.txt" }                   # 自定义黑名单域名,不解析DNS,不访问
-  blacklist_ip: { <<: *ip_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/blacklist_ip.txt" }                               # 自定义黑名单ip,不访问
+  blacklist_domain: { <<: *domain_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/blacklist_domain.txt" }                   # 自定义黑名单域名,不解析DNS
+  blacklist_ip: { <<: *ip_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/blacklist_ip.txt" }                               # 自定义黑名单ip
+  blacklist_classical: { <<: *classical_text, url: "https://raw.githubusercontent.com/mqlszxy/configs/refs/heads/main/Nikki/blacklist_classical.txt" }          # 自定义黑名单
   # 🛡️ 流量净化
   ad_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.mrs" }                           # MetaCubeX官方广告规则
   # 🔗 直连服务

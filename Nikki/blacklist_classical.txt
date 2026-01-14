@@ -1,0 +1,5 @@
+# 此文件用于拉黑，加入此文件的不会进行DNS解析，不会访问
+
+# 拦截 80
+DOMAIN-PORT,dl.etax.chinatax.gov.cn,80
+DOMAIN-PORT,core.api.mijia.tech,80

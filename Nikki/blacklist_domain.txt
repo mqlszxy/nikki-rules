@@ -1,13 +1,16 @@
-risk.dun.mi.com
-pre-api.miui.security.xiaomi.com
+# 此文件用于拉黑域名，加入此文件的域名不会进行DNS解析，不会访问
+
+# 小米
+
+# IPV6
 +.status-ipv6.jpush.cn
 +.speedv6.m.jd.com
-kainosiuorod3ml7kujdq1peguarr8nb7rh5fji0asics86arqa488e.siomxity.net
-ipv6.msftconnecttest.com
-ipv6.msftncsi.com
-wallpaper.itopvpn.com
-tosv.byted.org
-idx.v6.shub.sandai.net
-hub5pr.v6.phub.sandai.net
-stun.services.mozilla.com
++.ipv6.msftconnecttest.com
++.ipv6.msftncsi.com
++.idx.v6.shub.sandai.net
++.hub5pr.v6.phub.sandai.net
+
+# 杂项
++.siomxity.net
++.wallpaper.itopvpn.com
 +.optimise.net
