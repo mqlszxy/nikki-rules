@@ -4,7 +4,7 @@
 +.bing.net
 +.linkedin.com
 +.visualstudio.com
-+.login.live.com
++.live.com
 +.cloudflare.com
 +.bdurl.net
 +.unpkg.com
@@ -51,3 +51,12 @@
 +.ip.sb
 +.jsdelivr.net
 +.ipify.org
++.tampermonkey.net
++.karing.app
++.scorecardresearch.com
++.vigem.org
++.azureedge.net
++.msn.com
++.ctfassets.net
++.bingapis.com
++.akamaized.net
