@@ -72,14 +72,21 @@
 +.wikimedia.org
 
 # 可可影视
-+.cdn.wlcdn88.com
-+.v8.qewbn.com
-+.snv13.tscjzy.com
-+.v.lzcdn31.com
-+.cdn.yzzy32-play.com
-+.vip.dytt-cine.com
-+.s1.fengbao9.com
-+.vip.ffzy-online.com
++.wlcdn88.com
++.qewbn.com
++.tscjzy.com
++.lzcdn31.com
++.yzzy32-play.com
++.dytt-cine.com
++.fengbao9.com
++.ffzy-online.com
++.qewbn.com
++.qrssuv.com
++.yzzy31-play.com
++.dytt-cinema.com
++.fengbao8.com
++.ffzy-video.com
+
 
 # 杂项
 +.bdurl.net
