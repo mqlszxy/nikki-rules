@@ -50,3 +50,4 @@
 +.wd-purple.com
 +.ip.sb
 +.jsdelivr.net
++.ipify.org

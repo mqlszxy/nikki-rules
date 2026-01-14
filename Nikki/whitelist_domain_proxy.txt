@@ -1,2 +1,3 @@
-collector.github.com
++.github.com
 +.optimise.net
++.wd-gold.com
