@@ -15,7 +15,6 @@
 +.msftconnecttest.com
 +.msftncsi.com
 
-
 # Cloudflare
 +.cloudflare.com
 +.cloudflarestorage.com
@@ -65,7 +64,7 @@
 # NTP
 +.ntp.org
 
-#Update
+# Update
 +.itopupdate.com
 
 # 杂项
