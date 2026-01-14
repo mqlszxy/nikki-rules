@@ -60,3 +60,4 @@
 +.ctfassets.net
 +.bingapis.com
 +.akamaized.net
++.solidigm-nvme.com
