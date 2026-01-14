@@ -67,6 +67,10 @@
 # Update
 +.itopupdate.com
 
+# Metacubex
++.wiki.metacubex.one
++.wikimedia.org
+
 # 杂项
 +.bdurl.net
 +.unpkg.com
