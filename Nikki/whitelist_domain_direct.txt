@@ -61,3 +61,6 @@
 +.bingapis.com
 +.akamaized.net
 +.solidigm-nvme.com
++.brave.com
++.cloudflareinsights.com
++.bdstatic.com
