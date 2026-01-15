@@ -138,3 +138,8 @@
 +.coveo.com
 +.go-mpulse.net
 +.amazonaws.com
++.twitch.tv
++.imgflip.com
++.9gag.com
++.wikipedia.org
++.wasu.tv
