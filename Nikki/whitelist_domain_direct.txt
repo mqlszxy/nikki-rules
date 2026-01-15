@@ -2,7 +2,9 @@
 
 # 微软
 +.office.com
++.office365.com
 +.microsoft.com
++.s-microsoft.com
 +.bing.com
 +.bing.net
 +.bingapis.com
@@ -12,10 +14,14 @@
 +.windows.com
 +.skype.com
 +.msedge.net
++.azureedge.us
++.azurefd.net
 +.vscode-cdn.net
 +.msn.com
 +.msftconnecttest.com
 +.msftncsi.com
++.xboxservices.com
++.cinebench.net
 
 # Cloudflare
 +.cloudflare.com
@@ -50,6 +56,7 @@
 
 # 知乎
 +.zhimg.com
++.zhihu.com
 
 # Github
 +.ssh.github.com
@@ -68,6 +75,8 @@
 +.dyndns.com
 +.dnschecker.org
 +.licdn.com
++.footprintdns.com
++.ydycdn.com
 
 # NTP
 +.ntp.org
@@ -143,3 +152,11 @@
 +.9gag.com
 +.wikipedia.org
 +.wasu.tv
++.z4a.net
++.umeng.com
+
+# 硬件
++.aida64.com
++.mailerlite.com
++.gpu-z.com
++.cpuid.com
