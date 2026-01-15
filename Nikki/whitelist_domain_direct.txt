@@ -154,9 +154,12 @@
 +.wasu.tv
 +.z4a.net
 +.umeng.com
++.intercom.io
 
-# 硬件
+# 硬件及测试
 +.aida64.com
 +.mailerlite.com
 +.gpu-z.com
 +.cpuid.com
++.ocbase.com
++.faas-image-eramap.com
