@@ -35,7 +35,6 @@
 +.qq.com
 
 #小米
-+.xiaomixiaoai.com
 +.miui.com
 +.xiaomi.com
 +.xiaomi.net
@@ -47,12 +46,6 @@
 # 京东
 +.360buyimg.com
 +.jd.com
-
-# 阿里
-+.alicdn.com
-
-# 字节跳动
-+.byted.org
 
 # 知乎
 +.zhimg.com
@@ -75,7 +68,6 @@
 +.dyndns.com
 +.dnschecker.org
 +.licdn.com
-+.footprintdns.com
 +.ydycdn.com
 
 # NTP
@@ -132,7 +124,6 @@
 +.ipify.org
 +.tampermonkey.net
 +.scorecardresearch.com
-+.vigem.org
 +.azureedge.net
 +.ctfassets.net
 +.solidigm-nvme.com

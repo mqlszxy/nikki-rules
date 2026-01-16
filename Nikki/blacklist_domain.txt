@@ -1,10 +1,5 @@
 # 此文件用于拉黑域名，加入此文件的域名不会进行DNS解析，不会访问
 
-# 小米
-
-# 微软
-+.inputsuggestions.msdxcdn.microsoft.com
-
 # IPV6
 +.status-ipv6.jpush.cn
 +.speedv6.m.jd.com
@@ -12,12 +7,22 @@
 +.ipv6.msftncsi.com
 +.idx.v6.shub.sandai.net
 +.hub5pr.v6.phub.sandai.net
+vcl-brain-v6-lf.ndcpp.com
 
 # 杂项
 +.siomxity.net
 +.wallpaper.itopvpn.com
 +.optimise.net
-3132372e302e302e31
 
 # 流量净化
 +.miaozhen.com
+
+# 无法解析域名
+tosv.byted.org
+storage.xiaomixiaoai.com
+cloudservice22.kingsoft-office-service.com
+4a16b35f1ab82ccc8719ed9f15c66491.clo.footprintdns.com
+updates.vigem.org
+3132372e302e302e31
+inputsuggestions.msdxcdn.microsoft.com
+tmge.alicdn.co
